@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+body{
+    display:grid;
+    grid-row-gap:5% ;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.25rem;
+}
+.sec{
+    position: relative;
+    width: 75%;
+    margin-left: 12.5%;
+}
+.navv{
+    position: fixed;
+    background-color: darkslategrey;
+    z-index: 1000;
+}
+ul li{
+    display: inline-block;
+    margin-left: 10%;
+}
+ul li a{
+    text-decoration: none;
+    color: forestgreen;
+    font-size:150%;
+}
+.projhead{
+    text-align: center;
+}
+.mainn img{
+     border-radius: 50%;
+     margin-left:37% ;
+     margin-top: 10%;
+}
+.mainn p{
+    text-align: center;
+    font-size: 150%;
+}
+.projects .proj img{
+    width: 200px;
+    height: 200px;
+    margin-left: 25%;
+    
+}
+.projects .proj p{
+    font-size: 80%;
+    text-align: center;
+    
+}
+.projects{
+    width: 100%;
+    margin: 0;
+}
+#grid-container
+{
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-column-gap: 1%;
+    grid-row-gap:3%
+}
+#grid-container >div:nth-child(odd){
+    background-color:#eee;
+}
+#grid-container >div:nth-child(even){
+    background-color:#ddd;
+}
+footer{
+    text-align: center;
+}
+.contact #formm input{
+    width: 25%;
+}
+#socials{
+    direction: rtl;
+}
+.fa{
+    margin-left: 4%;
+    text-decoration: none;
+}
+video{
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+}
